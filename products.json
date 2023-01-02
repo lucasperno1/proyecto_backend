@@ -12,61 +12,12 @@
 		"description": "Frutilla Negro",
 		"stock": 3,
 		"id": 2
-	},
-	{
+	}
+]	{
 		"title": "Milka",
 		"price": 350,
 		"description": "Aireado Negro",
 		"stock": 5,
 		"id": 3
-	},
-	{
-		"title": "Cadbury",
-		"price": 450,
-		"description": "Marmolado",
-		"stock": 7,
-		"id": 4
-	},
-	{
-		"title": "Milka",
-		"price": 360,
-		"description": "Negro",
-		"stock": 3,
-		"id": 5
-	},
-	{
-		"title": "Milka",
-		"price": 400,
-		"description": "Blanco",
-		"stock": 7,
-		"id": 6
-	},
-	{
-		"title": "Cadbury",
-		"price": 400,
-		"description": "Almendras",
-		"stock": 4,
-		"id": 7
-	},
-	{
-		"title": "Arcor",
-		"price": 250,
-		"description": "Negro",
-		"stock": 2,
-		"id": 8
-	},
-	{
-		"title": "Arcor",
-		"price": 250,
-		"description": "Blanco",
-		"stock": 9,
-		"id": 9
-	},
-	{
-		"title": "Cofler Block",
-		"price": 420,
-		"description": "Negro con mani",
-		"stock": 15,
-		"id": 10
 	}
 ]

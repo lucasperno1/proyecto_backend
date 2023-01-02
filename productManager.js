@@ -1,5 +1,4 @@
-const fs = require ('fs')
-
+import fs from 'fs'
 class ProductManager {
   constructor (filename) {
     this.filename = filename
@@ -78,7 +77,7 @@ class ProductManager {
   }
 }
 
-//const file = new ProductManager("./products.json")
+const file = new ProductManager("./products.json")
 
 //file.save({title:'Milka', price: 350,description:'Aireado Blanco', stock: 6})
 //file.save({title:'Cadbury', price: 400,description:'Frutilla Negro', stock: 3})
