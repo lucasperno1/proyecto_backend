@@ -77,7 +77,7 @@ export default class ProductManager {
   }
 }
 
-const file = new ProductManager("./products.json")
+//const file = new ProductManager("./products.json")
 
 //file.save({title:'Milka', price: 350,description:'Aireado Blanco', stock: 6})
 //file.save({title:'Cadbury', price: 400,description:'Frutilla Negro', stock: 3})
@@ -90,7 +90,7 @@ const file = new ProductManager("./products.json")
 //file.save({title:'Arcor', price: 250,description:'Blanco', stock: 9})
 //file.save({title:'Cofler Block', price: 420,description:'Negro con mani', stock: 15})
 
-//console.log(file.getProducts()).
+//console.log(file.getProducts())
 //file.deleteById(1)
 
 //file.update(3, {title:"Arcor"})
