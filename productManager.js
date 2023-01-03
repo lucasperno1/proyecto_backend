@@ -1,5 +1,5 @@
 import fs from 'fs'
-class ProductManager {
+export default class ProductManager {
   constructor (filename) {
     this.filename = filename
     try {
@@ -82,11 +82,16 @@ const file = new ProductManager("./products.json")
 //file.save({title:'Milka', price: 350,description:'Aireado Blanco', stock: 6})
 //file.save({title:'Cadbury', price: 400,description:'Frutilla Negro', stock: 3})
 //file.save({title:'Milka', price: 350,description:'Aireado Negro', stock: 5})
+//file.save({title:'Cadbury', price: 450,description:'Marmolado', stock: 7})
+//file.save({title:'Milka', price: 350,description:'Negro', stock: 3})
+//file.save({title:'Milka', price: 400,description:'Blanco', stock: 7})
+//file.save({title:'Cadbury', price: 400,description:'Almendras', stock: 4})
+//file.save({title:'Arcor', price: 250,description:'Negro', stock: 2})
+//file.save({title:'Arcor', price: 250,description:'Blanco', stock: 9})
+//file.save({title:'Cofler Block', price: 420,description:'Negro con mani', stock: 15})
 
 //console.log(file.getProducts()).
 //file.deleteById(1)
 
 //file.update(3, {title:"Arcor"})
 //console.log(file.getProducts())
-
-export default new ProductManager()
